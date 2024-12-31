@@ -1,0 +1,362 @@
+/* General Styles (unchanged for mobile) */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f0f8ff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #2088ff;
+}
+
+p {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, #85beff, #85beff);
+    color: #000;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #e0f7ff;
+    color: #85beff;
+}
+
+/* Intro Section */
+#intro {
+    text-align: center;
+    padding: 15px 20px;
+    background: #85beff;
+    color: #000;
+    border-bottom: 4px solid #85beff;
+}
+
+#intro h1 {
+    font-family: 'Lobster', cursive; /* Stylish font */
+    margin-top: 5px;
+    font-size: 3.5rem; /* Larger size for style */
+    color: #0060ce;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #000000, #6ca8e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#intro .btn {
+    display: inline-block;
+    background: #1180ff; /* Button Background Color */
+    color: #e0f7ff; /* Text Color */
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+#intro .btn:hover {
+    background: #1087ff; /* Change button background on hover */
+    transform: scale(1.05); /* Button grows slightly when hovered */
+}
+
+#intro .btn:active {
+    transform: scale(0.98); /* Button shrinks slightly when clicked */
+}
+
+/* Education Section */
+#education {
+    background: #f0f8ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.education-item {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    text-align: left;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* General Portfolio Styling */
+#portfolio {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffffff;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background: #f9f9f9; /* Light background for the card */
+    border: 1px solid #ddd; /* Subtle border for definition */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.portfolio-item .btn {
+    display: inline-block;
+    background: #2088ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-item .btn:hover {
+    background: #1a6fd1;
+    transform: scale(1.05);
+}
+
+.instructions {
+    background: #eef7ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.instructions h4 {
+    color: #2088ff;
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.instructions ol li {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+/* About Section Styling */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 700px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-text a {
+    color: #2088ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about-text a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-item {
+        flex: 1 1 100%; /* Full width for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #85beff;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    /* Header Navigation */
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Intro Section */
+    #intro h1 {
+        font-size: 2.5rem; /* Make text slightly smaller but still readable */
+        color: #000; /* Ensuring visibility on mobile devices */
+    }
+
+    #intro p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    /* Education Section */
+    .education-item {
+        padding: 15px;
+    }
+
+    /* Portfolio Section */
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for very small screens */
+    #intro h1 {
+        font-size: 2.5rem; /* Make text slightly smaller but still readable */
+        color: #000; /* Ensuring visibility on mobile devices */
+    }
+
+    #intro p {
+        font-size: 0.9rem;
+    }
+
+    form label, form input, form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
