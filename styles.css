@@ -1,27 +1,49 @@
+<<<<<<< HEAD
 /* General Styles */
+=======
+/* General Styles (unchanged for mobile) */
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+<<<<<<< HEAD
     background: #f7f7f7; /* Subtle off-white for background */
     color: #333; /* Neutral dark text */
+=======
+    background: #f0f8ff;
+    color: #333;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 }
 
 h1, h2, h3 {
     margin-bottom: 15px;
+<<<<<<< HEAD
     color: #444; /* Dark gray for headers */
 }
 
 p {
     color: #555; /* Medium gray for body text */
+=======
+    color: #2088ff;
+}
+
+p {
+    color: #555;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     line-height: 1.8;
 }
 
 /* Header Styles */
 header {
+<<<<<<< HEAD
     background: #222; /* Dark background for contrast */
     color: #fff; /* White text */
+=======
+    background: linear-gradient(90deg, #85beff, #85beff);
+    color: #000;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     padding: 15px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -41,7 +63,11 @@ header nav ul li {
 }
 
 header nav ul li a {
+<<<<<<< HEAD
     color: #fff; /* White text */
+=======
+    color: #000;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     text-decoration: none;
     font-size: 18px;
     padding: 8px 12px;
@@ -50,12 +76,18 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+<<<<<<< HEAD
     background: #444; /* Darker hover */
     color: #fff; /* Maintain white text */
+=======
+    background: #e0f7ff;
+    color: #85beff;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 }
 
 /* Intro Section */
 #intro {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,10 +122,35 @@ header nav ul li a:hover {
     color: #ddd; /* Light gray text for readability */
     margin-bottom: 20px;
     line-height: 1.8;
+=======
+    text-align: center;
+    padding: 15px 20px;
+    background: #85beff;
+    color: #000;
+    border-bottom: 4px solid #85beff;
+}
+
+#intro h1 {
+    font-family: 'Lobster', cursive; /* Stylish font */
+    margin-top: 5px;
+    font-size: 3.5rem; /* Larger size for style */
+    color: #0060ce;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #000000, #6ca8e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 }
 
 #intro .btn {
     display: inline-block;
+<<<<<<< HEAD
     background: #333; /* Darker button for emphasis */
     color: #fff; /* White text */
     padding: 14px 30px;
@@ -112,11 +169,35 @@ header nav ul li a:hover {
 
 #intro .btn:active {
     transform: scale(0.95);
+=======
+    background: #1180ff; /* Button Background Color */
+    color: #e0f7ff; /* Text Color */
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+#intro .btn:hover {
+    background: #1087ff; /* Change button background on hover */
+    transform: scale(1.05); /* Button grows slightly when hovered */
+}
+
+#intro .btn:active {
+    transform: scale(0.98); /* Button shrinks slightly when clicked */
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 }
 
 /* Education Section */
 #education {
+<<<<<<< HEAD
     background: #f7f7f7; /* Lighter background for contrast */
+=======
+    background: #f0f8ff;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     padding: 50px 20px;
     text-align: center;
 }
@@ -125,7 +206,11 @@ header nav ul li a:hover {
     max-width: 600px;
     margin: 0 auto 20px;
     text-align: left;
+<<<<<<< HEAD
     background: #fff;
+=======
+    background: #ffffff;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -134,16 +219,24 @@ header nav ul li a:hover {
 .education-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+<<<<<<< HEAD
     color: #444;
+=======
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 }
 
 /* General Portfolio Styling */
 #portfolio {
     text-align: center;
     padding: 50px 20px;
+<<<<<<< HEAD
     background: #fff;
 }
 
+=======
+    background: #ffffff;
+}
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -153,8 +246,13 @@ header nav ul li a:hover {
 }
 
 .portfolio-item {
+<<<<<<< HEAD
     background: #f9f9f9;
     border: 1px solid #ddd;
+=======
+    background: #f9f9f9; /* Light background for the card */
+    border: 1px solid #ddd; /* Subtle border for definition */
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -190,7 +288,11 @@ header nav ul li a:hover {
 
 .portfolio-item .btn {
     display: inline-block;
+<<<<<<< HEAD
     background: #333;
+=======
+    background: #2088ff;
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
     color: white;
     padding: 10px 20px;
     margin: 5px;
@@ -201,6 +303,7 @@ header nav ul li a:hover {
 }
 
 .portfolio-item .btn:hover {
+<<<<<<< HEAD
     background: #555;
     transform: scale(1.05);
 }
@@ -476,6 +579,35 @@ footer {
     transform: scale(0.95); /* Slight shrink on click */
 }
 
+=======
+    background: #1a6fd1;
+    transform: scale(1.05);
+}
+
+.instructions {
+    background: #eef7ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.instructions h4 {
+    color: #2088ff;
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.instructions ol li {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 /* About Section Styling */
 #about {
     text-align: center;
@@ -536,8 +668,95 @@ footer {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
 /* Responsive Design */
 @media (max-width: 768px) {
     .portfolio-item {
         flex: 1 1 100%; /* Full width for smaller screens */
     }
+<<<<<<< HEAD
+=======
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #85beff;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    /* Header Navigation */
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Intro Section */
+    #intro h1 {
+        font-size: 2.5rem; /* Make text slightly smaller but still readable */
+        color: #000; /* Ensuring visibility on mobile devices */
+    }
+
+    #intro p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    /* Education Section */
+    .education-item {
+        padding: 15px;
+    }
+
+    /* Portfolio Section */
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for very small screens */
+    #intro h1 {
+        font-size: 2.5rem; /* Make text slightly smaller but still readable */
+        color: #000; /* Ensuring visibility on mobile devices */
+    }
+
+    #intro p {
+        font-size: 0.9rem;
+    }
+
+    form label, form input, form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+>>>>>>> ba82dfd3b3fd8cea580e742ef73b6068667f4775
